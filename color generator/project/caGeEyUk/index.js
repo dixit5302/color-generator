@@ -4,7 +4,7 @@ let bgdColor = document.querySelector("#bgd-color")
 let body = document.querySelector("body")
 
 
-clickBtn.addEventListener("click", function(){
+clickBtn.addEventListener("click", () => {
         let getHex = '#'
         for(let i = 0; i< 6; i++){
         let randomNumbers = Math.floor(Math.random()*characters.length)
